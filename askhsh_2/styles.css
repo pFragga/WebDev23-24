@@ -70,121 +70,28 @@ img {
     padding: 0;
    
 }
+.float-left {
+    float: left;
+    margin-right: 30px;
 
-.avtr1 {
-    float: left; /* left float */
-    margin: 10px; /* Add some margin to create space between the image and text */
-}
-.avtr2 {
-    float: left; /* left float*/
-    margin: 10px; /* Add some margin to create space between the image and text */
-}
-.d1 {
-    float: left; /* left float */
-    margin: 10px; /* Add some margin to create space between the image and text */
-}
-.d2 {
-    float: left; /* left float */
-    margin: 10px; /* Add some margin to create space between the image and text */
-}
-.d3 {
-    float: left; /* left float */
-    margin: 10px; /* Add some margin to create space between the image and text */
-}
-.d4 {
-    float: left; /* left float */
-    margin: 10px; /* Add some margin to create space between the image and text */
-}
-.d5 {
-    float: left; /* left float */
-    margin: 10px; /* Add some margin to create space between the image and text */
-}
-.d1k {
-    float: left; /* left float */
-    margin: 10px; /* Add some margin to create space between the image and text */
-}
-.d2k {
-    float: left; /* left float */
-    margin: 10px; /* Add some margin to create space between the image and text */
-}
-.d3k {
-    float: left; /* left float */
-    margin: 10px; /* Add some margin to create space between the image and text */
-}
-.d4k {
-    float: left; /* left float*/
-    margin: 10px; /* Add some margin to create space between the image and text */
-}
-.d5k {
-    float: left; /* left float */
-    margin: 10px; /* Add some margin to create space between the image and text */
-}
-.std {
-    float: left; /* left float */
-    margin: 10px; /* Add some margin to create space between the image and text */
-}
-.auto {
-    float: left; /* left float */
-    margin: 10px; /* Add some margin to create space between the image and text */
-}
-.hos {
-    float: left; /* left float */
-    margin: 10px; /* Add some margin to create space between the image and text */
-}
-.hob{
-    float: left; /* left float */
-    margin: 10px; /* Add some margin to create space between the image and text */
-}
-.dog{
-    float: left; /* left float */
-    margin: 10px; /* Add some margin to create space between the image and text */
-}
-.g1 {
-    float: left; /* left float */
-    margin: 10px; /* Add some margin to create space between the image and text */
-}
-.g2 {
-    float: left; /* left float */
-    margin: 10px; /* Add some margin to create space between the image and text */
-}
-.g3 {
-    float: left; /* left float */
-    margin: 10px; /* Add some margin to create space between the image and text */
-}
-.g4 {
-    float: left; /* left float */
-    margin: 10px; /* Add some margin to create space between the image and text */
-}
-.g5 {
-    float: left; /* left float */
-    margin: 10px; /* Add some margin to create space between the image and text */
-}
-.hd1 {
-    float: left; /* left float */
-    margin: 10px; /* Add some margin to create space between the image and text */
-}
-.hd2 {
-    float: left; /* left float */
-    margin: 10px; /* Add some margin to create space between the image and text */
-}
-.hd3 {
-    float: left; /* left float */
-    margin: 10px; /* Add some margin to create space between the image and text */
-}
-.hd4 {
-    float: left; /* left float */
-    margin: 10px; /* Add some margin to create space between the image and text */
-}
-.hd5 {
-    float: left; /* left float */
-    margin: 10px; /* Add some margin to create space between the image and text */
-}
-.hd6 {
-    float: left; /* left float */
-    margin: 10px; /* Add some margin to create space between the image and text */
 }
 
-.content {
-    clear:all; /* Clear the float so that content following the image doesn't wrap around it */
+.aggelia {
+    float: left;
+    margin-right: 10px;
 }
-
+.category{
+    float: left;
+    margin-right: 10px;
+}
+.image-gallery{
+    float: left;
+    margin-right: 10px;
+}
+.dev-profile{
+    float: left;
+    margin-right: 10px;
+}
+.clear-both {
+    clear: both;
+}
