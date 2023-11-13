@@ -1,97 +1,92 @@
-h1{
-    /* h1 font formatting */
-    font-size: 45px;
-    font-family: sans-serif ;
-    font-weight: 700px;
-    font-style:normal;
-    font-stretch:semi-condensed;
-   
+h1 {
+	/* h1 font formatting */
+	font-size: 45px;
+	font-family: sans-serif ;
+	font-weight: 700px;
+	font-style:normal;
+	font-stretch:semi-condensed;
 }
 
-h2{
-    /* h2 font formatting */
-    font-size: 25px;
-    font-family: "Garamond", Times, serif;
-    font-weight:600;
-    font-style:normal;
-    font-stretch: revert;
-   
+h2 {
+	/* h2 font formatting */
+	font-size: 25px;
+	font-family: "Garamond", Times, serif;
+	font-weight:600;
+	font-style:normal;
+	font-stretch: revert;
 }
 
-h3{
-    /* h3 font formatting */
-    font-size: 27px;
-    font-family: "Times New Roman", Times, serif;
-    font-weight:600;
-    font-style:normal;
-    font-stretch: condensed;
-   
+h3 {
+	/* h3 font formatting */
+	font-size: 27px;
+	font-family: "Times New Roman", Times, serif;
+	font-weight:600;
+	font-style:normal;
+	font-stretch: condensed;
 }
 
-p{
-    /* paragraph font formatting */
-    font-size: 22px;
-    font-family: "Times New Roman", Times, serif;
-    font-weight:450;
-    font-style:normal;
-    font-stretch: semi-condensed;
-   
+p {
+	/* paragraph font formatting */
+	font-size: 22px;
+	font-family: "Times New Roman", Times, serif;
+	font-weight:450;
+	font-style:normal;
+	font-stretch: semi-condensed;
 }
 
-a:link{
-    /* unvisited link */
-    color: red;
-    
+a:link {
+	/* unvisited link */
+	color: red;
 }
 
-a:visited{
-    /* visited link */
-    color: yellow;
-    
+a:visited {
+	/* visited link */
+	color: yellow;
 }
 
-a:hover{
-    /* mouse over link */
-    color: black;
-    
+a:hover {
+	/* mouse over link */
+	color: black;
 }
 
-a:active{
-    /* selected link */
-    color: black;
-    
+a:active {
+	/* selected link */
+	color: black;
 }
 
 img {
-    /* Set the image size and other box model properties */
-    width: 200px;
-    height: 200px;
-    border: 2px solid white;
-    padding: 0;
-   
+	/* Set the image size and other box model properties */
+	width: 200px;
+	height: 200px;
+	border: 2px solid white;
+	padding: 0;
 }
-.float-left {
-    float: left;
-    margin-right: 30px;
 
+.float-left {
+	float: left;
+	margin-right: 30px;
 }
 
 .aggelia {
-    float: left;
-    margin-right: 10px;
+	float: left;
+	margin-right: 10px;
 }
-.category{
-    float: left;
-    margin-right: 10px;
+
+.category {
+	float: left;
+	margin-right: 10px;
 }
-.image-gallery{
-    float: left;
-    margin-right: 10px;
+
+.image-gallery {
+	float: left;
+	margin-right: 10px;
 }
-.dev-profile{
-    float: left;
-    margin-right: 10px;
+
+.dev-profile {
+	float: left;
+	margin-right: 10px;
 }
+
 .clear-both {
-    clear: both;
+	clear: both;
 }
