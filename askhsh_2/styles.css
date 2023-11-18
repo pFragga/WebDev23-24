@@ -1,92 +1,125 @@
+/* set colors for the entire page, configure smaller parts separately */
+html {
+	color: #bbbbbb;
+	background: #222222;
+}
+
+/* font formatting for main section */
+body > main {
+	font-family: serif;
+	font-size: 1em;
+	margin: 10px;
+}
+
+/* the header should stand out from main */
+body > header {
+	color: #eeeeee;
+	background-color: #005577;
+	text-align: center;
+	padding: 10px;
+}
+
+/* ...the same goes for the footer */
+body > footer {
+	background-color: #444444;
+	text-align: center;
+	font-size: small;
+	clear: both;
+}
+
+/* h1 font formatting */
 h1 {
-	/* h1 font formatting */
-	font-size: 45px;
-	font-family: sans-serif ;
-	font-weight: 700px;
-	font-style:normal;
-	font-stretch:semi-condensed;
+	font-family: sans, sans-serif;
+	font-size: 3em;
+	font-style: italic;
 }
 
+/* h2 font formatting */
 h2 {
-	/* h2 font formatting */
-	font-size: 25px;
-	font-family: "Garamond", Times, serif;
-	font-weight:600;
-	font-style:normal;
-	font-stretch: revert;
+	font-family: sans, sans-serif;
+	font-size: 2em;
 }
 
+/* h2 font formatting */
 h3 {
-	/* h3 font formatting */
-	font-size: 27px;
-	font-family: "Times New Roman", Times, serif;
-	font-weight:600;
-	font-style:normal;
-	font-stretch: condensed;
+	font-family: sans;
+	font-size: 1.5em;
 }
 
-p {
-	/* paragraph font formatting */
-	font-size: 22px;
-	font-family: "Times New Roman", Times, serif;
-	font-weight:450;
-	font-style:normal;
-	font-stretch: semi-condensed;
+/* get rid of <li> symbols */
+li {
+	list-style-type: none;
 }
 
+/* unvisited link */
 a:link {
-	/* unvisited link */
-	color: red;
+	color: aquamarine;
 }
 
+/* visited link */
 a:visited {
-	/* visited link */
+	color: aqua;
+}
+
+/* mouse over link */
+a:hover {
 	color: yellow;
 }
 
-a:hover {
-	/* mouse over link */
-	color: black;
-}
-
+/* selected link */
 a:active {
-	/* selected link */
-	color: black;
+	color: gray;
 }
 
+/* image dimensions & border */
 img {
-	/* Set the image size and other box model properties */
 	width: 200px;
 	height: 200px;
-	border: 2px solid white;
-	padding: 0;
+	border: 2px solid #eeeeee;
 }
 
+/* configure float properties */
+.category {
+	float: left;
+	margin: 0 1em;
+}
 .float-left {
 	float: left;
 	margin-right: 30px;
 }
-
 .aggelia {
 	float: left;
 	margin-right: 10px;
 }
-
-.category {
-	float: left;
-	margin-right: 10px;
-}
-
 .image-gallery {
 	float: left;
 	margin-right: 10px;
 }
 
-.dev-profile {
-	float: left;
-	margin-right: 10px;
+/* word wrapping for paragraphs */
+main > p {
+	inline-size: 900px;
 }
 
-.clear-both {
-	clear: both;
+/* word wrapping for image captions */
+figcaption {
+	inline-size: 500px;
+}
+
+/* input fields should match the page theme */
+input, textarea {
+	color: #eeeeee;
+	background-color: #555555;
+}
+
+/* make the text area bigger */
+textarea[name="problem"] {
+	height: 500px;
+	width: 400px;
+}
+
+/* looks cool */
+.mail-addr {
+	font-family: monospace;
+	font-size: 1.2em;
 }
