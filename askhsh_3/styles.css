@@ -3,10 +3,19 @@ html {
 	color: #bbbbbb;
 	background: #222222;
 }
-
+/* @font-face definition */
 @font-face {
-    font-family: 'robotothin';
-    src: url('Roboto-Thin-webfont.woff') format('woff');
+    font-family: 'arimobt';
+    src: url('Arimo-BoldItalic-webfont.woff') format('woff');
+    
+    
+    font-style: normal;
+	font-weight: normal;
+
+}
+@font-face {
+    font-family: 'arimo';
+    src: url('Arimo-Regular-webfont.woff') format('woff');
     
     
     font-style: normal;
@@ -15,8 +24,8 @@ html {
 }
 
 @font-face {
-    font-family: 'robotoitalic';
-    src: url('Roboto-Italic-webfont.woff') format('woff');
+    font-family: 'arimob';
+    src: url('Arimo-Bold-webfont.woff') format('woff');
     
     
     font-style: normal;
@@ -64,23 +73,27 @@ body > footer {
 
 /* h1 font formatting */
 h1 {
-	font-family:  sans-serif;
+	font-family:  'arimobt';
 	font-size: 3em;
 	font-style: italic;
 }
 
 /* h2 font formatting */
 h2 {
-	font-family:  'robotothin',sans-serif;
+	font-family:  'arimo';
 	font-size: 2em;
 }
 
 /* h2 font formatting */
-h3 {
-	font-family:  'robotoitalic',sans-serif;
-	font-size: 1.5em;
+h3  {
+	font-family:  'arimob';
+	font-size: 1,5em;
 }
-
+/*p , a font formatting */
+p , a {
+	font-family:  'arimob';
+	font-size: 1em;
+}
 /* get rid of <li> symbols */
 li {
 	list-style-type: none;
