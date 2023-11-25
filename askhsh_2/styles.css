@@ -40,7 +40,7 @@ h2 {
 	font-size: 2em;
 }
 
-/* h2 font formatting */
+/* h3 font formatting */
 h3 {
 	font-family: sans, sans-serif;
 	font-size: 1.5em;
@@ -96,8 +96,8 @@ img {
 	margin-right: 10px;
 }
 
-/* word wrapping for paragraphs */
-main > p {
+/* word wrapping for full descriptions */
+#full-description {
 	inline-size: 900px;
 }
 
