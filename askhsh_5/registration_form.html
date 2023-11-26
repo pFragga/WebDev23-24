@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="el-GR">
+<head>
+	<title>Εγγραφή χρήστη - Χρυσή Ευκαιρία</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+	<header>
+		<h1>Χρυσή Ευκαιρία</h1>
+		<img src="../resources/xxe-640x426.jpg" alt="Page logo">
+		<nav id="main-nav">
+			<ul class="menu-bar">
+				<li><a href="index.html">Αρχική Σελίδα</a></li>
+				<li><a href="categories.html">Κατηγορίες</a></li>
+				<li><a href="About-us.html">Για εμάς</a></li>
+				<li><a href="contact.html">Επικοινωνία</a></li>
+				<li><a href="registration_form.html">Εγγραφή</a></li>
+			</ul>
+		</nav>
+	</header>
+	<form id="registrationForm">
+
+		<fieldset>
+			<legend>Προσωπικά δεδομένα</legend>
+			<label for="fullName">Full Name:</label>
+			<input type="text" id="fullName" name="fullName" required>
+			<label for="email">Email:</label>
+			<input type="email" id="email" name="email" required>
+			<label for="homeAddress">Διεύθυνση κατοικίας:</label>
+			<textarea id="homeAddress" name="homeAddress" required></textarea>
+			<label for="dob">Ημερομηνία γέννησης:</label>
+			<input type="date" id="dob" name="dob" required>
+			<label for="phone">Αριθμός τηλεφώνου επικοινωνίας:</label>
+			<input type="tel" id="phone" name="phone" required>
+		</fieldset>
+
+		<details>
+			<summary>Δεδομένα αναγνώρισης χρήστη</summary>
+			<fieldset>
+				<label for="username">Username:</label>
+				<input type="text" id="username" name="username" required>
+				<label for="password">Password:</label>
+				<input type="password" id="password" name="password" required minlength="6">
+				<label for="confirmPassword">Confirm Password:</label>
+				<input type="password" id="confirmPassword" name="confirmPassword" required minlength="6">
+			</fieldset>
+		</details>
+
+		<details>
+			<summary> Επιλογές Επικοινωνίας</summary>
+			<fieldset>
+				<label for="communicationMethod"></label>
+				<input type="text" id="communicationMethod" name="communicationMethod" list="communicationMethods" required>
+				<datalist id="communicationMethods">
+					<option value="SMS"></option>
+					<option value="Email"></option>
+					<option value="Viber"></option>
+					<option value="WhatsApp"></option>
+				</datalist>
+			</fieldset>
+		</details>
+
+		<details>
+			<summary>Ερωτηματολόγιο</summary>
+			<fieldset>
+				<label for="adInterest">Τύπος διαφημίσεων που σας ενδιαφέρει:</label>
+				<input type="text" id="adInterest" name="adInterest" list="adInterests" required>
+				<datalist id="adInterests">
+					<option value="Ακίνητα"></option>
+					<option value="Αυτοκίνητα"></option>
+					<option value="είδη σπιτιού"></option>
+					<option value="Κατοικίδια"></option>
+					<option value="χομπι"></option>
+				</datalist>
+				<label for="jobProfile">Προφίλ εργασίας:</label>
+				<input type="text" id="jobProfile" name="jobProfile" required>
+				<label for="vehiclesUsed">Τύποι οχημάτων που χρησιμοποιούνται:</label>
+				<input type="text" id="vehiclesUsed" name="vehiclesUsed" required>
+				<label for="liveWorkAreas">Περιοχές στις οποίες θα θέλατε να ζήσετε ή να εργαστείτε:</label>
+				<input type="text" id="liveWorkAreas" name="liveWorkAreas" required>
+				<label for="whatHobbies">Ποια είναι τα χόμπι σας:</label>
+				<textarea id="whatHobbies" name="whatHobbies" required></textarea>
+			</fieldset>
+		</details>
+
+		<button type="submit">Submit</button>
+	</form>
+
+	<script src="validation.js"></script>
+
+	<footer>
+		<p>
+		Τηλέφωνο 210 9091300<br>
+		<a href="https://www.instagram.com/xe_gr/">instagram</a><br>
+		<a href="https://www.facebook.com/xrisi.eukairia/">facebook</a>
+		</p>
+	</footer>
+
+</body>
+</html>

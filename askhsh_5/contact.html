@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="el-GR">
+
+<head>
+	<title>Επικοινωνία - Χρυσή Ευκαιρία</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+
+	<header>
+		<h1>Χρυσή Ευκαιρία</h1>
+		<img src="../resources/xxe-640x426.jpg" alt="Page logo">
+		<nav id="main-nav">
+			<ul class="menu-bar">
+				<li><a href="index.html">Αρχική Σελίδα</a></li>
+				<li><a href="categories.html">Κατηγορίες</a></li>
+				<li><a href="About-us.html">Για εμάς</a></li>
+				<li><a href="contact.html">Επικοινωνία</a></li>
+				<li><a href="registration_form.html">Εγγραφή</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<h2>Φόρμα επικοινωνίας για τεχνική υποστήριξη των πελατών</h2>
+	<form>
+		<fieldset>
+			<legend>φόρμα επικοινωνίας</legend>
+			<label for="txt_namesur">ονοματεπώνυμο:</label><br>
+			<input type="text" id="txt_namesur" name="namesur" required><br>
+
+			<label for="email_mail">email:</label><br>
+			<input type="email" id="email_mail" name="email" placeholder="abcd@gmail.com" required><br>
+
+			<label for="txt_pumber">τηλέφωνο:</label><br>
+			<input type="text" id="txt_pumber" name="pumber" pattern="[0-9]{10}" required><br>
+
+			<label for="txt_adcode">Κωδικος Αγγελιας :</label><br>
+			<input type="text" id="txt_adcode" name="adcode" pattern="[0-9]{6}" required><br>
+
+			<label for="txt_problem">περιγραφή προβλήματος :</label><br>
+			<textarea name="problem" id="txt_problem" required></textarea>
+	
+			<input type="submit" id="btn_submit" name="submit">
+		</fieldset>
+	</form>
+
+	<footer>
+		<p>
+		Τηλέφωνο 210 9091300<br>
+		<a href="https://www.instagram.com/xe_gr/">instagram</a><br>
+		<a href="https://www.facebook.com/xrisi.eukairia/">facebook</a>
+		</p>
+	</footer>
+
+</body>
+
+</html>
