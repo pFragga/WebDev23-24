@@ -47,8 +47,8 @@ h3 {
 }
 
 /* get rid of <li> symbols */
-li {
-	list-style-type: none;
+ul {
+	list-style: none;
 }
 
 /* unvisited link */
